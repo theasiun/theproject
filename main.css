@@ -1,1 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #e10717;
+  font-size: 16px;
+  line-height: 1.45em;
+  margin: auto;
+}
+
+header, main, footer {
+  min-width: 960px;
+  overflow: auto;
+}
+
+header {
+  background-color: white;
+  padding: 20px 0;
+}
+
+main {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+footer {
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.left-column {
+  width: 640px;
+  float: left;
+  padding-right: 20px;
+}
+
+.right-column {
+  width: 320px;
+  float: right;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2em;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4, h5 {
+  font-size: 1.125em;
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:link, a:hover {
+  color: #e10717;
+}
+
+li > a:link, li > a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+li > a:hover {
+  color: #e10717;
+}
+
+#footer-links > a:link, #footer-links > a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-links > a:hover {
+  color: #777777;
+}
+
+main ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a{
+    display: block;
+    padding: 14px 16px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: #fff;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar li, .navbar-brand {
+    float: left;
+}
+
+.navbar-brand {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.333em;
+    padding: 14px 0;
+    margin: 0 3em 0 1.5em;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.left-column {
+  width: 640px;
+  float: left;
+  padding-right: 20px;
+}
+
+.right-column {
+  width: 320px;
+  float: right;
+}
