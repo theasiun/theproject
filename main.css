@@ -276,5 +276,8 @@ main {
 #notice {
     font-size: 4em;
     color: orange;
-    margin-bottom: 200px;
+}
+
+#fines {
+    margin-bottom 200px;
 }
