@@ -239,7 +239,15 @@ main {
     font-size: 5px;
     margin-bottom: 80px;
 }
-.links > a:link, a:visited, a:hover{
+.links > a:link {
+    margin-left: 55px;
+    color: red;
+}
+.links > a:visited {
+    margin-left: 55px;
+    color: red;
+}
+.links > a:hover {
     margin-left: 55px;
     color: red;
 }
