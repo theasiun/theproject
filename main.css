@@ -255,8 +255,8 @@ main {
 #login {
     width: 375px;
     margin: 10px 25px 10px 25px;
-    padding: 25px;
-    border: 2px solid black;
+    padding: 20px 25px 25px 25px;
+    border: 2px dashed black;
     background-color: #D3D3D3;
    
 }
