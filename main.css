@@ -276,9 +276,10 @@ main {
 #notice {
     font-size: 4em;
     color: orange;
+    margin-bottom: 100px;
 }
 
 #fines {
-    margin-bottom 300px;
     color: black;
+    margin-bottom: 100px;
 }
