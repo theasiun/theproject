@@ -239,35 +239,7 @@ main {
     font-size: 5px;
     margin-bottom: 80px;
 }
-#link1 {
-    margin-left: 55px;
-    color: red;
-}
-#link2 {
-    margin-left: 55px;
-    color: red;
-}
-#link3 {
-    margin-left: 55px;
-    color: red;
-}
-#link4 {
-    margin-left: 55px;
-    color: red;
-}
-#link5 {
-    margin-left: 55px;
-    color: red;
-}
-#link6 {
-    margin-left: 55px;
-    color: red;
-}
-#link7 {
-    margin-left: 55px;
-    color: red;
-}
-#link8 {
+.links > a:link, a:visited, a:hover{
     margin-left: 55px;
     color: red;
 }
