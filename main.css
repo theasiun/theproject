@@ -252,7 +252,7 @@ main {
     color: red;
 }
 
-.login {
+#login {
     margin: 25px;
     border: 10px black;
     background-color: #D3D3D3;
