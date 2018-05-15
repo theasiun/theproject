@@ -272,3 +272,7 @@ main {
 #p3 {
     margin-top: 70px;
 }
+
+.notice {
+    font-size: 5em;
+    color: orange;
