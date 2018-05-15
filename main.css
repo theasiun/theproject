@@ -253,6 +253,8 @@ main {
 }
 
 .login {
-    margin-bottom: 25px;
+    margin: 25px;
+    border: 2px black;
+    box-shadow: gray;
 }
   
